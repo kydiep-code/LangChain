@@ -1,2 +1,5 @@
-# LangChain
-# LangChain
+# Learning LangChain: Requests and Responses
+
+## LLM calls to make a 3 course meal
+
+This project using LangChain plans out a 3 course dinner including appetizer, main dish, and dessert on a $30 budget while reusing ingredients. Initially the model calls acting as a Professional chef and generates a JSON plan of the menu that includes the name of the dish and the ingredients. The program then executes the plan by generating a step by step plan to guide you to create the dishes.  Finally, the recipes are chained together to create the organized shopping list. The list adds up the price and all the ingredients of whats needed for all 3 of the meals. Each step of the process builds on itself by grabbing the dish and ingredient, then the instructions, and finally the combined grocery list. This  demonstrates both the plan and execute pattern and chained LLM requests.
