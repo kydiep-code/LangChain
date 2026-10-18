@@ -90,5 +90,5 @@ const shoppinglist = await model.invoke(
     etc
     `
 )
-console.log("/--------------------------------------------------------------/\n Shopping List: \n", shoppinglist.content)
-console.log("/--------------------------------------------------------------/\n How to make: \n", results.join("\n"))
+console.log("/--------------------------------------------------------------/\n Shopping List: \n\n", shoppinglist.content)
+console.log("/--------------------------------------------------------------/\n How to make: \n\n", results.join("\n"))
